@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="677.0" prefWidth="854.0" style="-fx-background-color: #16697a;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ResultInterfaceController">
+    <children>
+        <TableView fx:id="tableView" layoutX="18.0" layoutY="62.0" prefHeight="238.0" prefWidth="819.0" style="-fx-background-color: #d9e4dd;">
+            <columns>
+                <TableColumn fx:id="Request_ID" prefWidth="90.0" text="Request_ID" />
+                <TableColumn fx:id="PickupXY" prefWidth="100.0" text="Pickup (X,Y)" />
+                <TableColumn fx:id="DeliveryXY" prefWidth="105.0" text="Delivery (X,Y)" />
+                <TableColumn fx:id="PickupTW" prefWidth="111.0" text="Pickup TW" />
+                <TableColumn fx:id="DeliveryTW" prefWidth="121.0" text="Delivery TW" />
+                <TableColumn fx:id="PickupTime" minWidth="6.0" prefWidth="100.0" text="PickupTime" />
+                <TableColumn fx:id="DeliveryTime" prefWidth="107.0" text="DeliveryTime" />
+                <TableColumn fx:id="Load" prefWidth="84.0" text="Load" />
+            </columns>
+        </TableView>
+        <Label layoutX="312.0" text="Result Table" textFill="#ffa32b">
+            <font>
+                <Font name="Bodoni MT" size="43.0" />
+            </font>
+        </Label>
+        <Label layoutX="44.0" layoutY="462.0" text="Number Of Back Trackings" textFill="#ffa32b" AnchorPane.leftAnchor="44.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+        <TextField fx:id="numberOfBackTracking" alignment="CENTER" editable="false" layoutX="273.0" layoutY="460.0" style="-fx-background-color: #d9e4dd;" />
+        <Button fx:id="btnGetResult" layoutX="679.0" layoutY="626.0" mnemonicParsing="false" onAction="#getResultVisualize" style="-fx-background-color: #d9e4dd;" text="Get Result Visualized" textFill="#ffa32b" AnchorPane.rightAnchor="16.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+        <Label layoutX="66.0" layoutY="363.0" text="Total Capacity" textFill="#ffa32b" AnchorPane.leftAnchor="50.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+        <TextField fx:id="totalCapacity" alignment="CENTER" editable="false" layoutX="158.0" layoutY="358.0" prefHeight="31.0" prefWidth="50.0" style="-fx-background-color: #d9e4dd;" />
+        <TextField fx:id="depotCoordinate" alignment="CENTER" editable="false" layoutX="366.0" layoutY="358.0" prefHeight="31.0" prefWidth="50.0" style="-fx-background-color: #d9e4dd;" text="(0,0)" />
+      <Label layoutX="18.0" layoutY="319.0" text="Problem Parameters" textFill="#ffa32b" AnchorPane.leftAnchor="18.0">
+         <font>
+            <Font name="Showcard Gothic" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="19.0" layoutY="403.0" text="Result Sumarizes" textFill="#ffa32b" AnchorPane.leftAnchor="18.0">
+         <font>
+            <Font name="Showcard Gothic" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="numberOfRequest" alignment="CENTER" editable="false" layoutX="585.0" layoutY="358.0" prefHeight="31.0" prefWidth="50.0" style="-fx-background-color: #d9e4dd;" />
+      <TextField fx:id="TotalWaitingTime" alignment="CENTER" editable="false" layoutX="272.0" layoutY="508.0" style="-fx-background-color: #d9e4dd;" />
+      <Label layoutX="44.0" layoutY="510.0" text="Total Waiting time" textFill="#ffa32b" AnchorPane.leftAnchor="44.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="43.0" layoutY="607.0" text="Total Travel Distance" textFill="#ffa32b" AnchorPane.leftAnchor="43.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="TotalTravelDistance" alignment="CENTER" editable="false" layoutX="273.0" layoutY="605.0" style="-fx-background-color: #d9e4dd;" />
+      <Line endX="100.0" layoutX="551.0" layoutY="333.0" startX="-430.0" stroke="#ffa32b" AnchorPane.rightAnchor="17.0" />
+      <Line endX="100.0" layoutX="736.0" layoutY="417.0" startX="-480.0" stroke="#ffa32b" AnchorPane.rightAnchor="17.0" />
+      <Label layoutX="216.0" layoutY="363.0" text="Depote Coordinates" textFill="#ffa32b">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="427.0" layoutY="363.0" text="Number Of Requests" textFill="#ffa32b">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Line endX="150.0" layoutX="645.0" layoutY="33.0" startX="-140.0" stroke="#ffa32b" AnchorPane.rightAnchor="17.0" />
+      <Line endX="196.0" layoutX="204.0" layoutY="34.0" startX="-100.0" stroke="#ffa32b" AnchorPane.leftAnchor="17.0" />
+      <Label layoutX="646.0" layoutY="363.0" text="Vechile Speed" textFill="#ffa32b">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="vechileSpeed" alignment="CENTER" editable="false" layoutX="758.0" layoutY="358.0" prefHeight="31.0" prefWidth="50.0" style="-fx-background-color: #d9e4dd;" text="1" />
+      <TextField fx:id="TotalNeededTime" alignment="CENTER" editable="false" layoutX="273.0" layoutY="557.0" style="-fx-background-color: #d9e4dd;" />
+      <Label layoutX="43.0" layoutY="559.0" text="Total Needed Time" textFill="#ffa32b">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
