@@ -1,0 +1,1 @@
+-w -erf c:/My_Designs/ProjectTest/ProjectTest/compile/ProjectTest.erf -d c:/My_Designs/ProjectTest/ProjectTest/compile -s c:/My_Designs/ProjectTest/library.cfg -j c:/My_Designs/ProjectTest/ProjectTest/projlib.cfg -work ProjectTest -O3 -e 100 -work ProjectTest -2002 c:/My_Designs/ProjectTest/ProjectTest/src/Verification.vhd 

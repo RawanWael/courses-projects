@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="663.0" prefWidth="873.0" style="-fx-background-color: #e8e8e8;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.FCFSController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="76.0" prefWidth="874.0" style="-fx-background-color: #1f6f8b;">
+         <children>
+            <Label text="FCFS Process Table" textFill="#e8e8e8">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <TableView fx:id="tvFCFS" layoutY="76.0" prefHeight="257.0" prefWidth="874.0">
+        <columns>
+          <TableColumn fx:id="colProcessID" prefWidth="99.40000760555267" text="Process_ID" />
+          <TableColumn fx:id="colArrivalTime" prefWidth="106.19998931884766" text="Arrival Time" />
+            <TableColumn fx:id="colCpuBurst" prefWidth="116.39999389648438" text="CPU Burst" />
+            <TableColumn fx:id="colStartTime" prefWidth="116.39996337890625" text="Start Time" />
+            <TableColumn fx:id="colFinishTime" prefWidth="123.19998168945312" text="Finish Time" />
+            <TableColumn fx:id="colTA" prefWidth="102.5999755859375" text="TA" />
+            <TableColumn fx:id="colWait" prefWidth="103.800048828125" text="Wait" />
+            <TableColumn fx:id="colWTA" prefWidth="117.60003662109375" text="WTA" />
+        </columns>
+      </TableView>
+      <HBox alignment="CENTER" layoutX="-1.0" layoutY="363.0" prefHeight="76.0" prefWidth="874.0" style="-fx-background-color: #1f6f8b;">
+         <children>
+            <Label text="FCFC Gantt Chart" textFill="#e8e8e8">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <ScrollPane layoutX="53.0" layoutY="460.0" prefHeight="150.0" prefWidth="770.0">
+         <content>
+            <VBox prefHeight="125.0" prefWidth="770.0">
+               <children>
+                  <HBox fx:id="ganttChartBOX" prefHeight="100.0" prefWidth="200.0" />
+                  <HBox fx:id="timeAxisBOX" maxHeight="100.0" maxWidth="770.0" prefHeight="25.0" prefWidth="770.0" />
+               </children>
+            </VBox>
+         </content>
+      </ScrollPane>
+      <Label layoutX="36.0" layoutY="334.0" prefHeight="18.0" prefWidth="73.0" text="Averages">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelAvgBurst" layoutX="262.0" layoutY="336.0" />
+      <Label fx:id="labelAvgTA" layoutX="584.0" layoutY="336.0" />
+      <Label fx:id="labelAvgWait" layoutX="698.0" layoutY="336.0" />
+      <Label fx:id="labelAvgWTA" layoutX="821.0" layoutY="336.0" />
+   </children>
+</AnchorPane>

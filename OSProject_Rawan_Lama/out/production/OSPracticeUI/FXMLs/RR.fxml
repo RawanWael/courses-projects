@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="257.0" prefWidth="874.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.RRController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="76.0" prefWidth="874.0" style="-fx-background-color: #1f6f8b;">
+         <children>
+            <Label alignment="CENTER" text="Round Robin Process Table" textFill="#e8e8e8">
+               <font>
+                  <Font size="24.0" />
+               </font></Label>
+         </children></HBox>
+      <TableView fx:id="tvRR" layoutY="76.0" prefHeight="263.0" prefWidth="874.0">
+        <columns>
+          <TableColumn fx:id="colProcessID" prefWidth="86.20001524686813" text="Process_ID" />
+          <TableColumn fx:id="colArrivalTime" prefWidth="112.80001068115234" text="Arrival Time" />
+            <TableColumn fx:id="colCpuBurst" prefWidth="103.99996948242188" text="CPU Burst" />
+            <TableColumn fx:id="colStartTime" prefWidth="92.0" text="Start Time" />
+            <TableColumn fx:id="colFinishTime" prefWidth="123.20004272460938" text="Finish Time" />
+            <TableColumn fx:id="colTA" prefWidth="113.5999755859375" text="TA" />
+            <TableColumn fx:id="colWait" prefWidth="118.4000244140625" text="WAIT" />
+            <TableColumn fx:id="colWTA" prefWidth="126.39996337890625" text="WTA" />
+        </columns>
+      </TableView>
+      <AnchorPane layoutY="339.0" prefHeight="372.0" prefWidth="874.0">
+         <children>
+            <HBox alignment="CENTER" layoutY="57.0" prefHeight="100.0" prefWidth="874.0" style="-fx-background-color: #1f6f8b;">
+               <children>
+                  <Label alignment="CENTER" text="Round Robin Gantt Chart" textFill="#e8e8e8">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <ScrollPane layoutX="52.0" layoutY="186.0" prefHeight="150.0" prefWidth="770.0">
+               <content>
+                  <VBox prefHeight="125.0" prefWidth="770.0">
+                     <children>
+                        <HBox fx:id="ganttChartBOX" prefHeight="100.0" prefWidth="200.0" />
+                        <HBox fx:id="timeAxisBOX" maxHeight="100.0" maxWidth="770.0" prefHeight="25.0" prefWidth="770.0" />
+                     </children>
+                  </VBox>
+               </content>
+            </ScrollPane>
+            <Label layoutX="18.0" layoutY="13.0" prefHeight="18.0" prefWidth="73.0" text="Averages">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelAvgBurst" layoutX="244.0" layoutY="15.0" />
+            <Label fx:id="labelAvgTA" layoutX="566.0" layoutY="15.0" />
+            <Label fx:id="labelAvgWait" layoutX="680.0" layoutY="15.0" />
+            <Label fx:id="labelAvgWTA" layoutX="803.0" layoutY="15.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

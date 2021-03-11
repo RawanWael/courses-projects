@@ -1,0 +1,15 @@
+2
+~E 0 "" 0 and_gate
+~A 0 "" 0 and_gate1
+~E 0 "" 0 nand_gate
+~A 0 "" 0 nand_gate1
+~E 0 "" 0 nor_gate
+~A 0 "" 0 nor_gate1
+~E 0 "" 0 not_gate
+~A 0 "" 0 not_gate1
+~E 0 "" 0 or_gate
+~A 0 "" 0 or_gate1
+~E 0 "" 0 xnor_gate
+~A 0 "" 0 xnor_gate1
+~E 0 "" 0 xor_gate
+~A 0 "" 0 xor_gate1

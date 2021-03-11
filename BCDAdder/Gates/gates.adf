@@ -1,0 +1,44 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=gates
+[$LibMap$]
+gates=.
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+[Files]
+/gates.vhd=-1
+[Files.Data]
+.\src\gates.vhd=VHDL Source Code
+[Folders]
+Name0=Event Lists
+Directory0=c:\My_Designs\ProjectTest\ProjectTest\gates\
+Extension0=lst
+Name1=Logs
+Directory1=c:\My_Designs\ProjectTest\ProjectTest\gates\
+Extension1=log;htm;xml;txt
+Name2=Waveforms
+Directory2=c:\My_Designs\ProjectTest\ProjectTest\gates\
+Extension2=asdb;awc;asdbc;asdbe
+Name3=Makefiles
+Directory3=c:\My_Designs\ProjectTest\ProjectTest\gates\
+Extension3=mak
+Name4=Memory
+Directory4=c:\My_Designs\ProjectTest\ProjectTest\gates\
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=c:\My_Designs\ProjectTest\ProjectTest\gates\
+Extension5=dll
+Name6=PDF
+Directory6=c:\My_Designs\ProjectTest\ProjectTest\gates\
+Extension6=pdf
+Name7=HTML
+Directory7=c:\My_Designs\ProjectTest\ProjectTest\gates\
+Extension7=htm;html
+[SpecTracer]
+WindowVisible=0

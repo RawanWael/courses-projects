@@ -1,0 +1,27 @@
+3
+~E 1 "../src/gates.vhd" 53 and3_gate
+~A 1 "../src/gates.vhd" 57 and_gate3
+~E 1 "../src/gates.vhd" 65 and4_gate
+~A 1 "../src/gates.vhd" 69 and_gate4
+~E 1 "../src/gates.vhd" 77 and5_gate
+~A 1 "../src/gates.vhd" 81 and_gate5
+~E 1 "../src/gates.vhd" 41 and_gate
+~A 1 "../src/gates.vhd" 45 and_gate2
+~E 1 "../src/gates.vhd" 17 nand_gate
+~A 1 "../src/gates.vhd" 21 nand_gate2
+~E 1 "../src/gates.vhd" 29 nor_gate
+~A 1 "../src/gates.vhd" 33 nor_gate2
+~E 1 "../src/gates.vhd" 5 not_gate
+~A 1 "../src/gates.vhd" 9 not_gate2
+~E 1 "../src/gates.vhd" 101 or3_gate
+~A 1 "../src/gates.vhd" 105 or_gate3
+~E 1 "../src/gates.vhd" 113 or4_gate
+~A 1 "../src/gates.vhd" 117 or_gate4
+~E 1 "../src/gates.vhd" 125 or5_gate
+~A 1 "../src/gates.vhd" 129 or_gate5
+~E 1 "../src/gates.vhd" 89 or_gate
+~A 1 "../src/gates.vhd" 93 or_gate2
+~E 1 "../src/gates.vhd" 137 xnor_gate
+~A 1 "../src/gates.vhd" 141 xnor_gate2
+~E 1 "../src/gates.vhd" 149 xor_gate
+~A 1 "../src/gates.vhd" 153 xor_gate2

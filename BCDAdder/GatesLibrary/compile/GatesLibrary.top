@@ -1,0 +1,7 @@
+and_gate ENTITY
+or_gate ENTITY
+xnor_gate ENTITY
+xor_gate ENTITY
+nor_gate ENTITY
+not_gate ENTITY
+nand_gate ENTITY

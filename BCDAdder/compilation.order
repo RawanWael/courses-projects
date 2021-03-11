@@ -1,0 +1,5 @@
+.\src\Gates.vhd
+.\src\Adders.vhd
+.\src\Registers.vhd
+.\src\Final_BDC_Adder.vhd
+.\src\Verification.vhd

@@ -1,0 +1,81 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=ProjectTest
+
+[Library]
+ProjectTest=.\ProjectTest\ProjectTest.lib
+
+[$LibMap$]
+ProjectTest=.
+Active_lib=
+gates=.
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+fileopenfolder=C:\My_Designs\ProjectTest\ProjectTest\src
+
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=verification|verAdder_CLA|0  
+ShowHide=ShowTopLevel
+Selected=
+
+[Folders]
+Name0=Event Lists
+Directory0=c:\My_Designs\ProjectTest\ProjectTest\
+Extension0=lst
+Name1=Logs
+Directory1=c:\My_Designs\ProjectTest\ProjectTest\
+Extension1=log;htm;xml;txt
+Name2=Waveforms
+Directory2=c:\My_Designs\ProjectTest\ProjectTest\
+Extension2=asdb;awc;asdbc;asdbe
+Name3=Makefiles
+Directory3=c:\My_Designs\ProjectTest\ProjectTest\
+Extension3=mak
+Name4=Memory
+Directory4=c:\My_Designs\ProjectTest\ProjectTest\
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=c:\My_Designs\ProjectTest\ProjectTest\
+Extension5=dll
+Name6=PDF
+Directory6=c:\My_Designs\ProjectTest\ProjectTest\
+Extension6=pdf
+Name7=HTML
+Directory7=c:\My_Designs\ProjectTest\ProjectTest\
+Extension7=htm;html
+
+[Files]
+/Gates.vhd=-1
+/Adders.vhd=-1
+/Registers.vhd=-1
+/Final_BDC_Adder.vhd=-1
+/Verification.vhd=-1
+/Rverification1.asdb=-1
+/Rverification1.awc=-1
+/CLAverification2.asdb=-1
+/CLAverification2.awc=-1
+
+[Files.Data]
+.\src\Gates.vhd=VHDL Source Code
+.\src\Adders.vhd=VHDL Source Code
+.\src\Registers.vhd=VHDL Source Code
+.\src\Final_BDC_Adder.vhd=VHDL Source Code
+.\src\Verification.vhd=VHDL Source Code
+.\src\Rverification1.asdb=Accelerated Waveform File
+.\src\Rverification1.awc=Accelerated Waveform Configuration
+
+.\src\CLAverification2.asdb=Accelerated Waveform File
+.\src\CLAverification2.awc=Accelerated Waveform Configuration

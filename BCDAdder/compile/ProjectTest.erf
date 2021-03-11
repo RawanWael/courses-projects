@@ -1,0 +1,6 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: c:/My_Designs/ProjectTest/ProjectTest/src/Verification.vhd" 
+MESSAGE "Compile Entity "verification"" 
+MESSAGE "Compile Architecture "verAdder_R" of Entity "verification"" 
+MESSAGE "Compile Architecture "verAdder_CLA" of Entity "verification"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  79.0 [ms]" 

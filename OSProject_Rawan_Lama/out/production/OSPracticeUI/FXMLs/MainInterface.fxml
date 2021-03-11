@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="705.0" style="-fx-background-color: #e8e8e8;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.MainInterfaceController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="94.0" prefWidth="654.0" style="-fx-background-color: #1f6f8b;" AnchorPane.bottomAnchor="306.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label alignment="CENTER" text="Welcome to our GENIUS CPU Simulator " textAlignment="CENTER" textFill="#e8e8e8">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <Button fx:id="btnMultiprogrammed" layoutX="81.0" layoutY="154.0" minHeight="18.0" minWidth="127.0" mnemonicParsing="false" onAction="#clickMultiprogrammed" style="-fx-background-color: #1f6f8b;" text="Multiprogrammed " textFill="#e8e8e8" />
+      <Button fx:id="btnFCFS" layoutX="81.0" layoutY="222.0" minHeight="18.0" minWidth="127.0" mnemonicParsing="false" onAction="#clickFCFS" prefHeight="26.0" prefWidth="117.0" style="-fx-background-color: #db6400;" text="FCFS" textFill="#e8e8e8" />
+      <Button fx:id="btnSJF" layoutX="81.0" layoutY="292.0" minHeight="18.0" minWidth="127.0" mnemonicParsing="false" onAction="#clickSJF" prefHeight="26.0" prefWidth="117.0" style="-fx-background-color: #1f6f8b;" text="SJF" textFill="#e8e8e8" />
+      <Button fx:id="btnSRTF" layoutX="385.0" layoutY="222.0" minHeight="18.0" minWidth="127.0" mnemonicParsing="false" onAction="#clickSRTF" prefHeight="26.0" prefWidth="117.0" style="-fx-background-color: db6400;" text="SRTF" textFill="#e8e8e8" />
+      <Button fx:id="btnEPWithPreemption" layoutX="236.0" layoutY="222.0" minHeight="18.0" minWidth="127.0" mnemonicParsing="false" onAction="#clickEPWithPreemption" prefHeight="26.0" prefWidth="117.0" style="-fx-background-color: #1f6f8b;" text="EP + Preemption" textFill="#e8e8e8" />
+      <Button fx:id="btnEPWithoutPreemption" layoutX="236.0" layoutY="292.0" minHeight="18.0" minWidth="127.0" mnemonicParsing="false" onAction="#clickEPWithoutPreemption" prefHeight="26.0" prefWidth="117.0" style="-fx-background-color: db6400;" text="EP - Preemption" textFill="#e8e8e8" />
+      <Button fx:id="btnRR" layoutX="385.0" layoutY="153.0" minHeight="18.0" minWidth="127.0" mnemonicParsing="false" onAction="#clickRR" prefHeight="26.0" prefWidth="117.0" style="-fx-background-color: #1f6f8b;" text="Round Robin" textFill="#e8e8e8" />
+      <TextField fx:id="tfEnteredQ" layoutX="535.0" layoutY="154.0" minHeight="18.0" minWidth="127.0" prefHeight="26.0" prefWidth="117.0" promptText="Quantum" />
+      <Label fx:id="labelGenerate" layoutX="475.0" layoutY="366.0" prefHeight="18.0" prefWidth="215.0" text="Generating File Started..." textFill="#1f6f8b">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfIOPercentage" layoutX="236.0" layoutY="154.0" minHeight="18.0" minWidth="127.0" prefHeight="26.0" prefWidth="117.0" promptText="IO Percentage" />
+   </children>
+</AnchorPane>

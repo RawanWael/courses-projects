@@ -1,0 +1,47 @@
+# Library Manager: Library "gates" already exists.
+acom -reorder -O3 -e 100 -work gates -2002  $dsn/src/gates.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/My_Designs/ProjectTest/ProjectTest/gates/src/gates.vhd
+# Compile Entity "not_gate"
+# Compile Architecture "not_gate2" of Entity "not_gate"
+# Compile Entity "nand_gate"
+# Compile Architecture "nand_gate2" of Entity "nand_gate"
+# Compile Entity "nor_gate"
+# Compile Architecture "nor_gate2" of Entity "nor_gate"
+# Compile Entity "and_gate"
+# Compile Architecture "and_gate2" of Entity "and_gate"
+# Compile Entity "and3_gate"
+# Compile Architecture "and_gate3" of Entity "and3_gate"
+# Compile Entity "and4_gate"
+# Compile Architecture "and_gate4" of Entity "and4_gate"
+# Compile Entity "and5_gate"
+# Compile Architecture "and_gate5" of Entity "and5_gate"
+# Compile Entity "or_gate"
+# Compile Architecture "or_gate2" of Entity "or_gate"
+# Compile Entity "or3_gate"
+# Compile Architecture "or_gate3" of Entity "or3_gate"
+# Compile Entity "or4_gate"
+# Compile Architecture "or_gate4" of Entity "or4_gate"
+# Compile Entity "or5_gate"
+# Compile Architecture "or_gate5" of Entity "or5_gate"
+# Compile Entity "xnor_gate"
+# Compile Architecture "xnor_gate2" of Entity "xnor_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "xor_gate2" of Entity "xor_gate"
+# Top-level unit(s) detected:
+# Entity => and3_gate
+# Entity => or3_gate
+# Entity => or5_gate
+# Entity => xnor_gate
+# Entity => xor_gate
+# Entity => or4_gate
+# Entity => nand_gate
+# Entity => not_gate
+# Entity => or_gate
+# Entity => nor_gate
+# Entity => and4_gate
+# Entity => and5_gate
+# Entity => and_gate
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].

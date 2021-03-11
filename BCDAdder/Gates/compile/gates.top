@@ -1,0 +1,13 @@
+and3_gate ENTITY
+or3_gate ENTITY
+or5_gate ENTITY
+xnor_gate ENTITY
+xor_gate ENTITY
+or4_gate ENTITY
+nand_gate ENTITY
+not_gate ENTITY
+or_gate ENTITY
+nor_gate ENTITY
+and4_gate ENTITY
+and5_gate ENTITY
+and_gate ENTITY

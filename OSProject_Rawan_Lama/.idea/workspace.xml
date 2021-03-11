@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="413af1f8-02ae-40e2-8ca9-02ed266e9db4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="FxmlFile" />
+        <option value="package-info" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1k2e4dxaDozY7lXoXLyvQtRdh6j" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yassi\OneDrive\OSPracticeUI\src\FXMLs" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="OSPracticeUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.OSPracticeUI" />
+      <module name="OSPracticeUI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.OSPracticeUI" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="413af1f8-02ae-40e2-8ca9-02ed266e9db4" name="Default Changelist" comment="" />
+      <created>1604902926375</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604902926375</updated>
+      <workItem from="1604902927828" duration="36000" />
+      <workItem from="1604903014859" duration="32602000" />
+      <workItem from="1605259054614" duration="1798000" />
+      <workItem from="1605434086095" duration="32144000" />
+      <workItem from="1605473509711" duration="83000" />
+      <workItem from="1605509545433" duration="34000" />
+      <workItem from="1605523161378" duration="55000" />
+      <workItem from="1605523259061" duration="3000" />
+      <workItem from="1605523299359" duration="1987000" />
+      <workItem from="1605538940317" duration="602000" />
+      <workItem from="1605616156009" duration="589000" />
+      <workItem from="1605622061617" duration="2036000" />
+      <workItem from="1605627934936" duration="1565000" />
+      <workItem from="1605631889423" duration="1029000" />
+      <workItem from="1605714097532" duration="7802000" />
+      <workItem from="1605859599203" duration="35000" />
+      <workItem from="1605862781509" duration="165000" />
+      <workItem from="1605863712650" duration="941000" />
+      <workItem from="1605874262150" duration="635000" />
+      <workItem from="1606137624204" duration="10082000" />
+      <workItem from="1606151540236" duration="55000" />
+      <workItem from="1606151629265" duration="59000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1606149611429">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1606149611429" />
+    <state x="551" y="307" width="433" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1606140648456">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="551" y="307" width="433" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1606140648456" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604910018141">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1604910018141" />
+    <state width="1493" height="202" key="GridCell.Tab.0.bottom" timestamp="1606151687022">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="202" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606151687022" />
+    <state width="1493" height="202" key="GridCell.Tab.0.center" timestamp="1606151687022">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="202" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606151687022" />
+    <state width="1493" height="202" key="GridCell.Tab.0.left" timestamp="1606151687022">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="202" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606151687022" />
+    <state width="1493" height="202" key="GridCell.Tab.0.right" timestamp="1606151687022">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="202" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606151687022" />
+    <state width="1493" height="81" key="GridCell.Tab.1.bottom" timestamp="1606151358894">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="81" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606151358894" />
+    <state width="1493" height="81" key="GridCell.Tab.1.center" timestamp="1606151358894">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="81" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1606151358894" />
+    <state width="1493" height="81" key="GridCell.Tab.1.left" timestamp="1606151358894">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="81" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1606151358894" />
+    <state width="1493" height="81" key="GridCell.Tab.1.right" timestamp="1606151358894">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="81" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1606151358894" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1604903036057">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604903036057" />
+    <state x="295" y="148" width="946" height="628" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1605452817296">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="295" y="148" width="946" height="628" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1605452817296" />
+    <state x="209" y="73" key="new project wizard" timestamp="1606140099378">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="73" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1606140099378" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1606149350272">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1606149350272" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1606142501671">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1606142501671" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="5" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

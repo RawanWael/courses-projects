@@ -1,0 +1,43 @@
+Active-HDL 11.1.262.7351 2020-05-21 01:06:14
+
+Elaboration top modules:
+Architecture                  verAdder_CLA(verification)
+
+
+-----------------------------------------------------------------------------------------------------------------------
+Entity              | Architecture                | Library     | Info | Compiler Version        | Compilation Options
+-----------------------------------------------------------------------------------------------------------------------
+verification        | verAdder_CLA                | projecttest |      | 11.1.262.7351 (Windows) | -O3
+Final_BCD_Adder     | Final_BCD_Adder_Circuit_CLA | projecttest |      | 11.1.262.7351 (Windows) | -O3
+n_bit_register      | register_n_bit              | projecttest |      | 11.1.262.7351 (Windows) | -O3
+BCD_adder           | BCD_adder4_CLA              | projecttest |      | 11.1.262.7351 (Windows) | -O3
+D_FlipFlop          | D_FlipFlop1                 | projecttest |      | 11.1.262.7351 (Windows) | -O3
+CLAadder            | CLAadder4                   | projecttest |      | 11.1.262.7351 (Windows) | -O3
+correctionDetection | Detecttion_Circuit          | projecttest |      | 11.1.262.7351 (Windows) | -O3
+adder4              | structural_adder4           | projecttest |      | 11.1.262.7351 (Windows) | -O3
+and_gate            | and_gate2                   | gates       |      | 11.1.262.7351 (Windows) | -O3
+or_gate             | or_gate2                    | gates       |      | 11.1.262.7351 (Windows) | -O3
+xor_gate            | xor_gate2                   | gates       |      | 11.1.262.7351 (Windows) | -O3
+or3_gate            | or_gate3                    | gates       |      | 11.1.262.7351 (Windows) | -O3
+full_adder1         | structural_full_adder1      | projecttest |      | 11.1.262.7351 (Windows) | -O3
+-----------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
+VHDL Package                                      | Library     | Info | Compiler Version        | Compilation Options
+-----------------------------------------------------------------------------------------------------------------------
+standard                                          | std         |      |                         | <unavailable>
+TEXTIO                                            | std         |      |                         | <unavailable>
+std_logic_1164                                    | ieee        |      |                         | <unavailable>
+STD_LOGIC_TEXTIO                                  | ieee        |      |                         | <unavailable>
+std_logic_arith                                   | ieee        |      |                         | <unavailable>
+STD_LOGIC_UNSIGNED                                | ieee        |      |                         | <unavailable>
+-----------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
+Library                                           | Comment
+-----------------------------------------------------------------------------------------------------------------------
+gates                                             | None
+ieee                                              | Standard IEEE packages library
+projecttest                                       | None
+std                                               | Standard VHDL library
+-----------------------------------------------------------------------------------------------------------------------
